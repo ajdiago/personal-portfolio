@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  width: 100%;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.jumbotron-text {
+  position: relative;
+  top: 50%;
+}
+
+.bg-nav {
+  background-color: rgba(57, 180, 191, 1);
+
+}
+
+.fab {
+  font-size: 2rem;
+}
+
+.profile-text {
+  font-size: 1.5rem;
+}
